@@ -1,7 +1,7 @@
 ![symfony-docker](http://i.imgur.com/vc5ZVqL.png?2)
 
 # Symfony + Nginx + php-fpm
-[![Foo](https://badge.imagelayers.io/kitpages/symfony:latest.svg)](https://imagelayers.io/?images=kitpages/symfony:latest)
+[![Foo](https://badge.imagelayers.io/kitpages/symfony:7.0.svg)](https://imagelayers.io/?images=kitpages/symfony:7.0)
 
 Docker for Symfony application, powered by **Nginx** and **php-fpm**.
 
@@ -12,7 +12,7 @@ If you are experiencing some issues, take a look at [TROUBLESHOOTING](TROUBLESHO
 ## Usage
 
 ```bash
-docker pull kitpages/symfony
+docker pull kitpages/symfony:7.0
 ```
 
 Then run in your symfony folder
