@@ -18,7 +18,7 @@ docker pull kitpages/symfony:7.0
 Then run in your symfony folder
 
 ```bash
-docker run -v $(pwd):/var/www -p 8080:80 kitpages/symfony:
+docker run -v $(pwd):/var/www -p 8080:80 kitpages/symfony:7.0
 ```
 
 Symfony app will be accessible on http://localhost:8080/app.php
