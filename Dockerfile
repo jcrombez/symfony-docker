@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 
 MAINTAINER Elie Charra <elie.charra [at] kitpages.fr>
 
