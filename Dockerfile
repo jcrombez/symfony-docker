@@ -14,6 +14,7 @@ RUN apt-get -qq update && apt-get -qq -y --no-install-recommends install \
     php7.0 \
     php7.0-cli \
     php7.0-intl \
+    php7.0-xml \
     php7.0-fpm &&\
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* &&\
