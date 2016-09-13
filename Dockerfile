@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-MAINTAINER Elie Charra <elie.charra [at] kitpages.fr>
+MAINTAINER Elie Charra <elie.charra [at] kibatic.comr>
 
 RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get -qq -y --no-install-recommends install \
     supervisor \
