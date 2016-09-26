@@ -15,6 +15,7 @@ RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get -qq -y --no-ins
     php7.0-cli \
     php7.0-intl \
     php7.0-xml \
+    php7.0-zip \
     php7.0-mbstring \
     php7.0-fpm &&\
     apt-get clean && \
